@@ -1,0 +1,530 @@
+@font-face {
+    font-family: 'outagecut';
+    src: url('webfontkit-20130911-080617/outage_cut-webfont.eot');
+    src: url('webfontkit-20130911-080617/outage_cut-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfontkit-20130911-080617/outage_cut-webfont.woff') format('woff'),
+         url('webfontkit-20130911-080617/outage_cut-webfont.ttf') format('truetype'),
+         url('webfontkit-20130911-080617/outage_cut-webfont.svg#outagecut') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'outageregular';
+    src: url('webfontkit-20130911-080617/outage-webfont.eot');
+    src: url('webfontkit-20130911-080617/outage-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfontkit-20130911-080617/outage-webfont.woff') format('woff'),
+         url('webfontkit-20130911-080617/outage-webfont.ttf') format('truetype'),
+         url('webfontkit-20130911-080617/outage-webfont.svg#outageregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*SCROLLS*/
+::-webkit-scrollbar-track { background-color: #080808; }
+::-webkit-scrollbar-thumb { background-color:#FDB900; }
+::-webkit-scrollbar-corner { background-color: #FDB900; } 
+::-webkit-scrollbar { width: 7px; height: 7px; }
+
+
+
+#homeContainer
+{
+	
+	padding-top:90px;
+	padding-bottom:20px;	
+	
+}
+
+#vidselectorcontainer
+{
+	 height:400px; 
+	 width:460px;
+	 overflow-y:scroll;
+	
+}
+
+#homeSearch
+{
+	height:55px;
+	font-size:2em;
+	width:550px;
+}
+
+#homeSearchBtn
+{
+	height:55px;
+	font-size:2em;
+	margin-top:-10px;
+}
+
+#homeSearchBtn:hover
+{
+	color:#FDB900;
+}
+
+a
+{
+	color:#FDB900;
+	text-decoration:none;
+}
+
+a:hover
+{
+	color:#FDB900;
+	text-decoration:none;
+}
+
+.tileResults:hover
+{
+	background-color:#FDB900;
+	cursor:pointer;
+	border-radius:0 45px 0 45px;
+	
+	
+}
+
+
+
+#homeImage
+{
+	width:261px;
+	height:210px;
+	border-radius:70px 0 70px 0;
+}
+
+#dick
+{
+	width:270px;
+	float:left;
+	height:285px;
+	border-radius:70px 0 70px 0;
+	 margin:5px;
+	 padding:5px;
+	 padding-right:20px;
+	 color:#888;
+	 background-color:white;
+	 
+}
+
+#dick:hover  #homeImage
+{
+	
+	border-radius:0 70px 0 70px;
+	 
+}
+#dick:hover
+{
+	width:270px;
+	float:left;
+	height:285px;
+	margin:5px;
+	 padding:5px;
+	 padding-right:20px;
+	 color:black;
+	 background-color:#fdb900;
+	 border-radius:0 70px 0 70px;
+	 
+}
+
+#main
+{
+	margin-top:20px;
+}
+
+#search
+{
+		width:600px;
+		margin-right:-5px;
+}
+
+
+#buttonUser
+{
+	background-color:#fdb900;
+	border:none;
+}
+
+
+#imageMenu
+{
+
+	margin-top:-1px;
+	border-radius:0 0 0 0;
+	margin-left:-1px;
+	background-color:#fdb900;
+	width:316px;
+	font-family:Tahoma, Geneva, sans-serif;
+	padding-left:12px;
+	padding-right:12px;
+}
+
+#mainHomeButtonLogo
+{
+	background-color:#fdb900;
+	border:none;
+	
+}
+
+
+#userDropDown
+{
+	margin-top:7px;
+	background-color:#fdb900;
+	border-radius:0 0 0 0;
+	font-family:Tahoma, Geneva, sans-serif;
+	text-align:left;
+}
+
+
+#divider{
+	background-color:black
+}
+
+
+
+#badgeImage
+{
+	width:100px;
+	height:100px;
+	border-radius:100px 100px 100px 100px;
+	border:5px solid #888;
+}
+
+#badgeImage:hover
+{
+	-webkit-box-shadow: -2px 0px 20px rgba(255, 255, 255, 0.7);
+		-moz-box-shadow:    -2px 0px 20px rgba(255, 255, 255, 0.7);
+		box-shadow:         -2px 0px 20px rgba(255, 255, 255, 0.7);
+}
+
+
+
+
+
+
+
+
+
+
+.identifier
+{
+	padding-top:160px;
+	padding-left:10px;
+}
+
+#headName
+{
+	padding-bottom:5px;
+	width:280px;
+}
+
+
+
+#gameCoverPhoto
+{
+	
+	display:block;
+	margin:auto;
+	height:700px;
+    max-width: 1140px;
+    width: auto\9; /* ie8 */
+	border-radius:0 0 150px 0;
+
+
+}
+
+
+
+
+#area
+{
+	position:relative;
+	top:500px;
+	background-color:#060606;
+	padding-left:110px;
+
+
+}
+
+#area h1
+{
+	margin-left:140px;
+}
+
+
+#gameName
+{
+	font-family:outagecut; 
+	color:#fdb900;
+	margin-bottom:-2px;"
+}
+
+#gameDescription
+{
+	margin-left:140px;
+}
+
+.modal
+{
+	font-family: 'outagecut';
+}
+
+#gameRow1
+{
+	margin-top:20px;
+}
+
+#noCoverPhoto
+{
+	margin-top:200px;
+	text-align:center;
+}
+
+#gameplayVideoPlaylist
+{
+	cursor: pointer;
+}
+
+#gi, #ss, #od, #ur, #screens
+{
+	border-radius: 45px 0 45px 0;
+}
+
+
+
+#staffRatingTable
+{
+	border-radius: 45px 0 45px 0;
+}
+
+
+
+.nameResults
+{
+	color:white;
+}
+
+#profileContainer
+{
+	margin-top:90px;
+
+}
+
+#profileImage
+{
+	border-radius: 45px 0 45px 0;
+	width:200px;
+	height:200px;
+}
+
+#imageContainer
+{
+	padding:10px;
+	margin-left:20px;
+	background-color:#888;
+	border-radius: 45px 0 45px 0;
+	width:220px;
+}
+
+#profileImageContainer
+{
+	border-radius: 45px 0 45px 0;
+	height:200px;
+	width:200px;
+}
+
+#profileInfoContainer
+{
+	background-color:#282828;
+	padding:20px;
+	border-radius: 45px 0 45px 0;
+}
+
+#profileNameContainer
+{
+	font-size:30px;
+}
+
+
+
+#ac1, #ac2, #ac3, #ac4, #ac5, #ac6, #ac7, #ac8, #ac9, #ac10, #ac11, #ac12
+{
+	background-color:#282828;
+	height:250px;
+	margin:5px;
+	width:85px;
+	font-size:10px;
+	padding-left:11px;
+	cursor:pointer;
+	border-radius: 35px 0 35px 0;
+	color:black;
+	
+} 
+
+#ac1:hover, #ac2:hover, #ac3:hover, #ac4:hover, #ac5:hover, #ac6:hover, #ac7:hover, #ac8:hover, #ac9:hover, #ac10:hover, #ac11:hover, #ac12:hover
+{
+	border-radius: 0 35px 0 35px;
+	border:1px solid white;
+	-webkit-box-shadow: -2px 0px 20px rgba(255, 255, 255, 0.7);
+		-moz-box-shadow:    -2px 0px 20px rgba(255, 255, 255, 0.7);
+		box-shadow:         -2px 0px 20px rgba(255, 255, 255, 0.7);
+
+	
+}
+
+
+#trophyName
+{
+	margin-top:210px;
+	color:white;
+}
+
+#innerTrophyCase
+{
+	display-inline:block;
+	text-decoration:none;
+}
+
+
+
+#navcontainer ul
+{
+font-size:12px;
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+#navcontainer ul li 
+{ 
+display: inline;
+margin:2px;
+}
+
+#navcontainer ul li a
+{
+text-decoration: none;
+color: #fff;
+width:20px;
+background-color:#888;
+
+}
+
+#navcontainer ul li a:hover
+{
+color: #fff;
+}
+
+
+#screenies
+{
+	width:135px;
+	height:96px;
+	margin:5px;
+	border:1px solid #fdb900;
+	border-radius:30px 0 30px 0;
+}
+
+#screenies:hover
+{
+	border-radius:0 30px 0 30px;
+	border-radius:0 63px 0 63px;
+	-webkit-box-shadow: -2px 0px 20px rgba(255, 255, 255, 0.7);
+	-moz-box-shadow:    -2px 0px 20px rgba(255, 255, 255, 0.7);
+	box-shadow:         -2px 0px 20px rgba(255, 255, 255, 0.7);
+}
+
+
+#loginFalseRateArea
+{
+	text-align:center;
+	font-family:outagecut;
+	margin-top:122px;
+	margin-bottom:107px;
+}
+
+
+
+#subNavButtons
+{
+	display:block;
+	margin:auto;
+}
+
+#notFoundContainer
+{
+	text-align:Center;
+	padding-top:200px;
+}
+
+#loginImage
+{
+	width:200px;
+	border-radius:10px 0 30px 0;
+	
+}
+
+#notfound
+{
+	text-align:center;
+	font-family:outagecut;
+	font-size:5em;
+}
+
+#userButtonArea
+{
+	margin-top:7px;
+	margin-right:15px;
+	background-color:#fdb900;
+}
+
+#backtotop
+{
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	text-align:center;
+}
+
+#nameHome
+{
+	font-size:20px;
+	margin-left:5px;
+	text-align:Center;
+}
+
+#pubHome
+{
+	margin-top:-11px;
+	margin-left:5px;
+	text-align:Center;
+}
+
+#genreHome
+{
+	margin-top:-11px;
+	margin-left:5px;
+	text-align:Center;
+}
+
+
+#inlineGallery
+{
+	overflow:hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
