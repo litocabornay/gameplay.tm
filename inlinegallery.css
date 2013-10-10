@@ -1,0 +1,120 @@
+		#toggleText {
+		width:1140px;
+		height:200px;
+		background:#060606;
+		overflow:auto;
+		margin-bottom:10px;
+		overflow-y:hidden;
+		margin-left:-20px;
+		margin-right:-20px;
+		}
+		
+		#toggleText ul 
+		{
+		white-space:nowrap;
+		list-style:none;
+		}
+		
+		
+		#toggleText li 
+		{
+		margin:10px;
+		text-align:center;
+		display:-moz-inline-box;  
+		display:inline-block;
+		background-color:#060606;
+		padding-top:5px;
+		padding-right:5px;
+		padding-left:5px;
+		
+		border-radius:63px 0 63px 0;
+		}
+		
+		
+		#imageHolder:hover{
+		margin:10px;
+		text-align:center;
+		display:-moz-inline-box;  
+		display:inline-block;
+		background-color:#fdb900;
+		padding-top:5px;
+		padding-right:5px;
+		padding-left:5px;
+		
+		border-radius:0 63px 0 63px;
+		-webkit-box-shadow: -2px 0px 20px rgba(255, 255, 255, 0.7);
+		-moz-box-shadow:    -2px 0px 20px rgba(255, 255, 255, 0.7);
+		box-shadow:         -2px 0px 20px rgba(255, 255, 255, 0.7);
+		}
+		
+		
+		#imageHolder:hover  #gameImage
+		{
+			border-radius:0 60px 0 60px;
+			color:#060606;
+		}
+		
+		#imageHolder:hover .gameNameFront
+		{
+			color:white;
+		}
+		
+		#imageHolder:hover .gamePublisherFront
+		{
+			color:white;
+		}
+		
+		#imageHolder:hover .gameGenreFront
+		{
+			color:white;
+		}
+
+		
+		#toggleText img
+		{
+		border:0;
+		display:block;
+		height:270px;
+		width:270px;
+		border:1px solid white;
+		border-radius:60px 0 60px 0;
+		}
+
+
+
+		#toggleText span 
+		{
+		padding:5px 0 0;
+		display:block;
+		}
+		
+		
+		.gameNameFront
+		{
+			font-family:outagecut;
+			color:#888;
+			font-weight:bold;
+			
+		}
+		
+		.gamePublisherFront
+		{
+			color:#888;
+			margin-top:-8px;
+		}
+		.gameGenreFront
+		{
+			margin-top:-8px;
+			color:#888;
+		}
+		
+		
+		
+		
+
+		
+		#tableViewImage
+		{
+			height:25px;
+			width:70px;
+		}
